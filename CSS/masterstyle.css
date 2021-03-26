@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.barra{
+    width: 100%;
+    line-height: 220%;
+    text-align:center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barra1{
+    width: 25%;
+    background-color: #98B6B1;
+}
+.barra2 :hover{
+    background-color: #D7BCC8;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin:0;
+    color:#000000;
+    text-align: justify;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    width: 100%;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.61), hsla(222, 11%, 24%, 0.664)),url(../Media/image-viewer-concept-illustration/4806424.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.61), hsla(222, 11%, 24%, 0.664)),url(../Media/image-viewer-concept-illustration/4806424.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.div6{width: 100%;
+height: 200px;
+}
+
+@media (min-width: 600px) {
+    .columna1{
+        padding: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 800px) {
+    .columna1{
+        padding: 40px;
+        font-size: 2em;
+    }
+}
+div{
+    font-size: 15px;
+}
+.columna1{
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+
+
