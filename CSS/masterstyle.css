@@ -33,13 +33,13 @@ section{
     width: 48%;
     padding-left: 2%;
 }
-@media(max-width:600px){
-    .barra{
-        font-size: .7rem;
-    }
+@media (max-width:600px){
     section{
         padding: 0%;
         width: 100%;
         text-align: center;
+    }
+    .aspect_ratio{
+        height: 13rem;
     }
 }
