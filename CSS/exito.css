@@ -6,4 +6,10 @@
     .lista{
         text-align: left;
     }
+    .aspect_ratio{
+        height: 13rem;
+    }
+}
+video{
+    border-radius: 1rem;
 }
