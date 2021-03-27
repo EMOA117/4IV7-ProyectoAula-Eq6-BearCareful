@@ -67,3 +67,24 @@ section{
 .pie{
     color: #F5EBDC;
 }
+img{
+    border-radius: 1rem;
+}
+.imagen{
+    vertical-align: middle;
+    text-align: center;
+}
+@media(max-width:600px){
+    .aspect_ratio{
+        height: 13rem;
+    }
+    .aspect_ratio2{
+        height: 10rem;
+    }
+    .aspect_ratio3{
+        height: 19rem;
+    }
+}
+video{
+    border-radius: 1rem;
+}

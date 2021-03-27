@@ -15,70 +15,13 @@ body{
     flex-direction: column;
 }
 
-header{
-    text-align: center;
-}
-       
-.columna1{
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    border: 10%;
-}
-
-@media (min-width: 600px) {
-    .columna1{
-        padding: 20px;
-        font-size: 1.5em;
-    }
-}
-
-@media (min-width: 800px) {
-    .columna1{
-        padding: 40px;
-        font-size: 2em;
-    }
-}
-
-
-body{
-    border: 20%;
-    font-family: 'Lato';
-}
-
-div,p{
-    font-size: 19px;
-}
-section{
-    font-size: 30px;
-}
-
-.Slogan{
-    text-align: center;
-    font-size: 54px;
-
-}
-
-section{
-    align-items: center;
-}
-
 p{
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
-.Li{
-    font-size: 19px;
-}
-
-.imagen{
-    text-align: center;
-   ;
-}
-.imgsrc{
-    border-radius: 5%;
+li{
+    font-size: 1.2rem;
 }
 h1{
     text-align: center;
 }
-
