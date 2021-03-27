@@ -58,7 +58,7 @@
     padding: 2rem 0px;
     text-align: center;
     font-size: 1.1rem;
-    position: absolute;
+    position: relative;
     width: 98%;
     bottom: 0px;
 }
