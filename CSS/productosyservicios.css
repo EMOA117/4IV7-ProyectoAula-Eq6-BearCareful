@@ -134,3 +134,21 @@ footer p{
 @media (min-width:00px){
 	.XD{height: 10rem;}
 }
+.imagen{
+	text-align: center;
+}
+.foot{
+    background-color: #683c11;
+    padding: 2rem 0px;
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    width: 98%;
+    bottom: 0px;
+    color: #F5EBDC;
+}
+
+.pie{
+    color: #F5EBDC;
+	text-align: center;
+}

@@ -52,17 +52,3 @@
 .boton:hover{
     background-color: #0072bec0;
 }
-
-.foot{
-    background-color: #683c11;
-    padding: 2rem 0px;
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    width: 98%;
-    bottom: 0px;
-}
-
-a{
-    color: #F5EBDC;
-}
