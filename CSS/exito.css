@@ -1,15 +1,5 @@
-.imagen{
-    vertical-align: middle;
-    text-align: center;
-}
 @media(max-width:600px){
     .lista{
         text-align: left;
     }
-    .aspect_ratio{
-        height: 13rem;
-    }
-}
-video{
-    border-radius: 1rem;
 }
