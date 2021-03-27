@@ -71,7 +71,6 @@ img{
     border-radius: 1rem;
 }
 .imagen{
-    vertical-align: middle;
     text-align: center;
 }
 @media(max-width:600px){

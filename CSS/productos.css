@@ -23,12 +23,6 @@ body{
 .espacio{
     width: 2%;
 }
-.img{
-    text-align: center;
-}
-.img2{
-    border-radius: 1rem;
-}
 @media(max-width:600px){
     .espacio{
         width: 100%;
