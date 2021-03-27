@@ -1,20 +1,56 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: #464646;
+	background-color: #F5EBDC;
 	background-attachment: fixed;
 	width: auto;
 }
+
+.barra{
+    width: 100%;
+    line-height: 220%;
+    text-align:center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; /* Pueden cambiar las fuentes xd */
+}
+
+.barra1{
+    width: 20%;
+    background-color: #41ad52;
+}
+.barra2 :hover{
+    background-color: #41ad51c7;
+}
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    vertical-align: middle;
+}
+@media(max-width:600px){
+    /* Este codigo reduce el tamaño de la fuente de la barra de navegacion en pantallas pequeñas */
+    .barra{
+        font-size: .7rem;
+    }
+}
+
 .ProductosyServicios{
-	margin-left: 200px;
-	margin-top: 100px;
+	align-content: center;
+	align-items: center;
+	margin-left: 11%; margin-right: 11%;
+	margin-top: 50px;
+	
 }
 
 .ProductosyServicios h2{
+	margin-top: 15px;
 	text-align: center;
+	color: antiquewhite;
 }
 
 .ProductosyServicios p{
+	color: antiquewhite;
 	font-weight: bold;
 	text-align: justify;
 	margin-left: 30px;
@@ -25,7 +61,7 @@ body{
 
 .Productos{
 	margin-top: 60px;
-	margin-left: 200px;
+	margin-left: 11%; margin-right: 11%;
 	
 	
 }
@@ -42,9 +78,9 @@ body{
 }
 
 .Servicios{
-	margin-left: 950px;
-	margin-top: -520px;
-	overflow: scroll;
+	margin-left: 50%;
+	position: relative;
+	margin-top: -500px;
 }
 
 .Servicios h2{ 
@@ -68,4 +104,30 @@ footer{
 footer img{
 	margin-left: 50px;
 	margin-top: 80px;
+}
+
+footer p{
+	color: antiquewhite;
+	text-align: right;
+	margin-right: 10px;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.home{
+	display: flex;
+}
+
+.in-flex{
+	flex: 1;
+}
+
+.in-flex:first-child{
+	flex: 2;
+}
+@media (min-width:00px){
+	.XD{height: 10rem;}
 }
