@@ -1,24 +1,29 @@
-*{
+
+body{
     padding: 0;
     margin:0;
-    color:#000000;
-    text-align: justify;
-    box-sizing: border-box;
+    color:#ffffff;
     font-family: 'Lato';
-    width: 100%;
     background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.61), hsla(222, 11%, 24%, 0.664)),url(../Media/image-viewer-concept-illustration/4806424.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.61), hsla(222, 11%, 24%, 0.664)),url(../Media/image-viewer-concept-illustration/4806424.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(143, 67%, 40%, 0.61),hsla(0, 0%, 30%, 0.664)) ,url(../Media/ImgID/Beartual.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(143, 67%, 40%, 0.61), hsla(0, 0%, 30%, 0.664)),url(../Media/ImgID/Beartual.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+header{
     text-align: center;
 }
-.div6{width: 100%;
-height: 200px;
+       
+.columna1{
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: 10%;
 }
 
 @media (min-width: 600px) {
@@ -34,15 +39,46 @@ height: 200px;
         font-size: 2em;
     }
 }
-div{
-    font-size: 15px;
+
+
+body{
+    border: 20%;
+    font-family: 'Lato';
 }
-.columna1{
-    padding: 10px;
-    width: 100%;
+
+div,p{
+    font-size: 19px;
+}
+nav, section{
+    font-size: 30px;
 }
 
+.Slogan{
+    text-align: center;
+    font-size: 54px;
 
+}
 
+section{
+    align-items: center;
+}
 
+p{
+    font-size: 22px;
+}
+
+.Li{
+    font-size: 19px;
+}
+
+.imagen{
+    text-align: center;
+   ;
+}
+.imgsrc{
+    border-radius: 5%;
+}
+h1{
+    text-align: center;
+}
 

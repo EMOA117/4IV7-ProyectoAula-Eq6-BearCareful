@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{
+
 	background-color: #F5EBDC;
 	background-attachment: fixed;
 	width: auto;
@@ -61,7 +62,9 @@ body{
 
 .Productos{
 	margin-top: 60px;
+
 	margin-left: 11%; margin-right: 11%;
+
 	
 	
 }
