@@ -1,3 +1,8 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;/*Fuente de la pag*/
+}
+
 body{
     background-color: #F5EBDC;
 }
@@ -33,13 +38,17 @@ section{
     width: 48%;
     padding-left: 2%;
 }
-@media (max-width:600px){
+
+@media(max-width:600px){
+    .barra{
+        font-size: .7rem;
+    }
+
     section{
         padding: 0%;
         width: 100%;
         text-align: center;
     }
-    .aspect_ratio{
-        height: 13rem;
-    }
+
+
 }

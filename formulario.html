@@ -4,36 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/masterstyle.css">
+    <link rel="stylesheet" href="CSS/formulario.css">
     <title>Contacto</title>
     <script language="JavaScript" type="text/JavaScript"
     src="JS/formulario.js" ></script>
 </head>
 <body>
-    <form method="POST" name="formulario"  
-    action="formulario.html" onsubmit="return validar(this)" >
-
-    Nombre:
-    <br>
-    <input type="text" name="nombre" size="20">
-    <br>
-    Email:
-    <br>
-    <input type="text" name="email" size="30">
-    <br>
-    Número de contacto:
-    <br>
-    <input type="text" name="telefono" size="10">
-    <br>
-    Mensaje:
-    <br>
-    <input type="text" name="mensaje" size="50">
-    <br>
-    <input type="submit" value="Enviar Datos" name="enviar" >
-    <br>
-    <input type="reset" value="Borrar" name="borrar" >     
-
-    </form>
-
-    <a href="formulario.html" >Regresar al menu principal</a>
+    <nav> 
+        <table class="barra">
+            <tr class="barra2">
+                <td class="barra1"><a class="enlace" href="media.html"><img class="logo" src="assets/images/icono.png" height="50rem"> BEARTUAL</a></td>
+                <td class="barra1"><a class="enlace" href="Index.html">IDEARIO</a></td>
+                <td class="barra1"><a class="enlace" href="productosyservicios.html">PRODUCTOS Y SERVICIOS</a></td>
+                <td class="barra1"><a class="enlace" href="exito.html">CASOS DE EXITO</a></td>
+                <td class="barra1"><a class="enlace" href="formulario.html">CONTACTO</a></td>
+            </tr>
+        </table>
+    </nav>
+    <h1 class="titulo">Contacto</h1>
+    <div class="contenedor">
+        <form method="POST" name="formulario" action="formulario.html" class="form" onsubmit="return validar(this)" >
+            Nombre:
+            <br>
+            <input type="text" name="nombre" size="20" class="form__input">
+            <br>
+            Número de contacto:
+            <br>
+            <input type="text" name="telefono" size="10" class="form__input">
+            <br>
+            Email:
+            <br>
+            <input type="text" name="email" size="30" class="form__input">
+            <br>
+            Mensaje:
+            <br>
+            <input type="text" name="mensaje" size="50" class="form__textarea">
+            <br>
+            <input type="submit" value="Enviar Datos" name="enviar" class="boton" >
+            <br>
+            <input type="reset" value="Borrar" name="borrar" class="boton">     
+        </form>
+    </div>
+    <footer class="foot">
+        <a href="Index.html" >Regresar al menu principal</a>
+    </footer>
 </body>
 </html>
