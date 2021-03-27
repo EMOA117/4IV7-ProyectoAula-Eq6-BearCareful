@@ -1,5 +1,11 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;/*Fuente de la pag*/
+}
+
 body{
     background-color: #F5EBDC;
+    margin: 0;
 }
 .barra{
     width: 100%;
@@ -33,13 +39,31 @@ section{
     width: 48%;
     padding-left: 2%;
 }
+
 @media(max-width:600px){
     .barra{
         font-size: .7rem;
     }
+
     section{
         padding: 0%;
         width: 100%;
         text-align: center;
     }
+
+
+}
+.foot{
+    background-color: #683c11;
+    padding: 2rem 0px;
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    color: #F5EBDC;
+}
+
+.pie{
+    color: #F5EBDC;
 }

@@ -1,0 +1,54 @@
+.titulo{
+    color: #683c11;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: #41ad52;
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: .2em auto;
+    text-align: center;
+    outline: 5px solid #683c11;
+}
+
+.form{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #F5EBDC;
+    margin-top: 15px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+
+.form__input, .form__textarea{
+    background: none;
+    border: none;
+    width: 90%;
+    border-bottom: 3px solid #683c11;
+    color: inherit;
+    font-size: .8em;
+}
+
+.form__textarea{
+    border: 3px solid #683c11;
+    flex-basis: 100px;
+}
+
+.boton{
+    width: 40%;
+    border: none;
+    padding: .8rem;
+    border-radius: 15px;
+    background-color: #0072BE;
+    color: white;
+}
+
+.boton:hover{
+    background-color: #0072bec0;
+}
