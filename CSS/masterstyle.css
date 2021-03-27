@@ -5,6 +5,7 @@
 
 body{
     background-color: #F5EBDC;
+    margin: 0;
 }
 .barra{
     width: 100%;
@@ -58,7 +59,7 @@ section{
     text-align: center;
     font-size: 1.1rem;
     position: relative;
-    width: 98%;
+    width: 100%;
     bottom: 0px;
     color: #F5EBDC;
 }
