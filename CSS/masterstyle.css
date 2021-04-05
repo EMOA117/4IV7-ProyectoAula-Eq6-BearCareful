@@ -39,6 +39,7 @@ div{
 section{
     width: 48%;
     padding-left: 2%;
+    border-radius: 1rem;
 }
 
 @media(max-width:600px){
@@ -76,12 +77,14 @@ video{
     border-radius: 1rem;
 }
 .productosyservicios{
-    width: 76%;
+    width: 72%;
     background-color: #683c11;
     color: antiquewhite;
     text-align: center;
     font-weight: bold;
     padding: 0;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .cuadrado{
     width: 100%;
@@ -91,11 +94,13 @@ video{
 }
 .productos{
     padding: 0;
-    width: 36%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 32.95%;
     background-color: #41ad52;
 }
 .espacio{
-    width: 2%;
+    width: .1%;
 }
 @media(max-width:600px){
     .aspect_ratio{
@@ -115,10 +120,9 @@ video{
         height: 1rem;
     }
     .productos{
-        padding: 0%;
-        width: 78%;
+        width: 74%;
     }
     .productosyservicios{
-        width: 78%;
+        width: 74%;
     }
 }

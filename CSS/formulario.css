@@ -10,9 +10,9 @@
     height: 600px;
     margin: .2em auto;
     text-align: center;
-    outline: 5px solid #683c11;
+    border: .5rem solid #683c11;
+    border-radius: 1rem;
 }
-
 .form{
     font-size: 1.2em;
     font-weight: bold;
@@ -33,11 +33,13 @@
     border-bottom: 3px solid #683c11;
     color: inherit;
     font-size: .8em;
+    background-color: #41ad52;
 }
 
 .form__textarea{
     border: 3px solid #683c11;
     flex-basis: 100px;
+    border-radius: 1rem;
 }
 
 .boton{
@@ -45,10 +47,12 @@
     border: none;
     padding: .8rem;
     border-radius: 15px;
-    background-color: #0072BE;
-    color: white;
+    /* background-color: #0072BE; */
+    background-color: #683c11;
+    color: antiquewhite;
 }
 
 .boton:hover{
-    background-color: #0072bec0;
+    /* background-color: #0072bec0; */
+    background-color: #683c11c0;
 }
